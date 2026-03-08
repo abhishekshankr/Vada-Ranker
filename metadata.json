@@ -1,0 +1,5 @@
+{
+  "name": "Seattle Vada Rankings",
+  "description": "A curated guide to the best South Indian vadas in the Seattle metro area, featuring detailed reviews and map locations.",
+  "requestFramePermissions": ["geolocation"]
+}
