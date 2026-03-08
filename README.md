@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Vada Quest — Seattle Vada Rankings
 
-# Run and deploy your AI Studio app
+A curated guide and interactive ranking system for South Indian vadas in the Seattle metropolitan area. Browse, explore, and discover the best vadas the Emerald City has to offer.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/468df113-784b-43ab-9ea2-26d7ac6c0fe4
+- **Interactive map** — color-coded markers (green/amber/red) based on quality rating
+- **Ranked restaurant cards** — crispiness, consistency, and taste scores with animated progress bars
+- **Detailed reviews** — "The Verdict" write-up for each location with Google Maps links
+- **Responsive UI** — mobile-first with collapsible sidebar and bottom drawer on small screens
+- **Dark mode** — automatic detection of system preference with matching map tiles
+
+## Ranked Locations
+
+| Rank | Name | Location | Rating |
+|------|------|----------|--------|
+| 1 | Madras Dosa Corner | Issaquah | 9/10 |
+| 2 | Madhurai Mess | Bellevue | 8.3/10 |
+| 3 | MTR (Mavalli Tiffin Rooms) | Bellevue | 8/10 |
+| 4 | Jayam's Tiffin | Bellevue | 6.7/10 |
+| ⚠ | Dosa House | Bellevue | 1/10 |
+
+## Tech Stack
+
+- **React 19** + **TypeScript** + **Vite**
+- **Tailwind CSS 4** for styling
+- **React Leaflet** / **Leaflet** for mapping
+- **Motion** for animations
+- **Lucide React** for icons
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```
+   npm install
+   ```
+2. Start the dev server:
+   ```
+   npm run dev
+   ```
+
+The app runs on `http://localhost:3000`.
+
